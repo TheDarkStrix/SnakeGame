@@ -8,7 +8,7 @@ import {
   SPEED,
   DIRECTIONS,
 } from "./constants";
-const SnakeGame = () => {
+const Index = () => {
   const canvasRef = useRef();
   const [snake, setSnake] = useState(SNAKE_START);
   const [fruit, setFruit] = useState(FRUIT_START);
@@ -132,4 +132,4 @@ const SnakeGame = () => {
   );
 };
 
-export default SnakeGame;
+export default Index;
